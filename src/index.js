@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Dashboard from './views/Dashboard'
+
+import "./assets/scss/black-dashboard-react.scss";
+import "./assets/demo/demo.css";
+import "./assets/css/nucleo-icons.css";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Dashboard />
   </React.StrictMode>,
   document.getElementById('root')
 );
